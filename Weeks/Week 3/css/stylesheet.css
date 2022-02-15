@@ -67,7 +67,7 @@ body {
 
 @media (min-width: 1200px) {
   .container {
-    width: 1500px;
+    width: 95%;
   }
 
 
@@ -75,21 +75,16 @@ body {
   /*Cuelpo de la brom*/
 
   h1 {
-  text-align: center;
   color: blue;
   padding-top: 20px;
   padding-bottom: 30px;
 }
 
 
-.BigG{
-  margin-left: 10px;  /*esta vaina no está funcionandoooooooooooooooooooooo*/
-}
-
 
 /* Each container*/
-#container1 {
-  /*position: relative;*/
+#BigBoxes {
+  position: relative;
   border: 1px solid black;
   background-color: grey;
   font-family: Helvetica;
@@ -97,14 +92,19 @@ body {
   margin-bottom: 20px;
   overflow: none;
   text-align: center;
+  margin: 0px 5px 20px 5px;
+  text-align: center;
+  float: left;
 }
+
 
 /* Each section title*/
 div h2 {
   border: 1px solid black;
   background-color: white;
   float: right;
-  margin-top: 0px;
+  margin-top: -1px;
+  margin-right: -16px;
   clear: left;
   font-size: 20px;
   width: 100px;
@@ -125,6 +125,7 @@ div h2 {
 
 #chicken {
   background-color: pink;
+  color: black;
 }
 
 #beef {
@@ -134,4 +135,5 @@ div h2 {
 
 #sushi {
   background-color: yellow;
+  color: black;
 }
