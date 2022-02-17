@@ -63,6 +63,64 @@ body {
    margin-top: -29px;
  }
 
+.navbar-collapse {
+  border:   none;
+  color: green;
+}
+
+.unoabajo {
+  clear: both;
+  width: 100%;
+}
+
+#nav-list a {
+  padding-top: 0px;
+}
+
+#nav-list {
+  text-align:  center;
+}
+
+.navbar-nav {
+  margin: 0px;
+  padding: 0px;
+  margin-left: -100px;
+}
+
+#nav-list a:hover  {
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: #232259;
+  color: white;
+  padding: auto;
+}
+
+.navbar-default .navbar-nav>.active>a>br {
+    text-align: center
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+ul li {
+    vertical-align:   middle;
+    text-align:   center;
+  }
+
+ul li:nth-child(3) {
+    z-index: 1;
+  }
+
+ul li:nth-child(1) {
+    z-index: 1;
+  }
+
+
+
 /*@media (min-width: 1200px) {
   .container {
     width: 95%;
