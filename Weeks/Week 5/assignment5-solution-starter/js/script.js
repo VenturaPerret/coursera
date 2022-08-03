@@ -121,7 +121,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
         //    console.log(categoriaNoRandom)
         //    Namett = "V"
 
-            insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName); //chosenCategoryShortNameWrapped
+            homeHtml = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName); //chosenCategoryShortNameWrapped
             var homeHtmlToInsertIntoMainPage = homeHtml;
 
         // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
